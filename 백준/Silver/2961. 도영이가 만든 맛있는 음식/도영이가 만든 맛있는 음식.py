@@ -1,4 +1,3 @@
-from collections import defaultdict
 from itertools import combinations
 import math
 
@@ -9,8 +8,6 @@ for _ in range(n):
     s1, b1 = map(int, input().split())
     s.append(s1)
     b.append(b1)
-
-dic = defaultdict(int)
 
 mul_s = []
 sum_b = []
